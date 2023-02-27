@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body{background-color: #DDDDDD;}
+
+/* Estilo para header */
+
+.header{
+    width: 96.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 1%;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px gray;
+    background-color: #119DA4;
+}
+
+/* Estilos de logo en header */
+.contenedorLogoHeader{width: 3%; padding-left: 1%;} 
+.logoHeader{width: 100%; cursor: pointer; transition: all 0.3s;}
+.logoHeader:hover{scale: 1.2;}
+
+/* Estilos de links en header */
+.contenedorLinks ul{list-style: none; display: inline-block; transition: all 0.5s;} 
+.contenedorLinks ul li{display: inline-block; padding: 0px 10px;}
+.contenedorLinks ul li a{text-decoration: none;}
+.contenedorLinks ul li:hover{scale: 1.2;}
+
+/* Estilo de botón en Header */
+.header input{
+    width: 10%; 
+    height: 35px;
+    background: #E9B144;
+    border: none;
+    border-radius: 10px;
+    color: #DDDDDD;
+    font-size: 1.3em;
+    transition: all 0.2s;
+} .header input:hover{scale: 1.2;}
+/* Estilo de footer */
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color: #119DA4;
+    position: absolute; left: 0%;
+}
+
+/* Estilos de fuentes */
+.tituloRosa{
+    color: #DB5461;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.tituloBlanco{
+    color: #DDDDDD;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.tituloNegro{
+    color: #171717;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: default;
+}
+.textoHeader{
+    color: #171717;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+}
+.textoNegro{
+    color: #171717;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}

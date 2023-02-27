@@ -1,0 +1,73 @@
+/* Estilo de bloque uno */
+.bloqueUno{
+    width: 95%;
+    margin-left: 2%; margin-top: 12%;
+    /*border: 5px solid black;*/
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenUno{
+    width: 25%;
+    display: inline-block;
+    margin-left: 5%; margin-right: 15%;
+}
+.textoBloqueUno{
+    display: inline-block;
+    width: 50%;
+}
+ /* Estilo de bloque dos */
+ .bloqueDos{
+    width: 95%;
+    margin-left: 2%; margin-top: 16%; margin-bottom: 15%;
+   /* border: 5px solid black;*/
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .cuestionario{
+    background: #DB5461;
+    width: 35%;
+    border-radius: 10px;
+    margin-left: 3%;
+    padding: 1%;
+    box-shadow: 3px 3px 20px gray;
+    display: inline-block;
+ }
+ .cuestionario p{
+    color: #DDDDDD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    margin-left: 10%; margin-top: 6%;
+ }
+ .cuestionario input{
+    color: #171717;
+    width: 65%; height: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 4px;
+ }
+ .cuestionario button{
+    width: 70%;
+    background: #E9B144;
+    display: block;
+    margin: auto; margin-top: 15%; margin-bottom: 10%;
+    border-radius: 10px;
+    border: none;
+    color: #DDDDDD;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s;
+ }.cuestionario button:hover{color: #E9B144; background: #DDDDDD;}
+ .imagenDos{
+    width: 37%;
+    float: right;
+    margin-left: 5%;
+}
+ 
